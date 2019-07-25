@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    *{margin:0;padding:0}
+    .parent{
+        padding-bottom:50px;
+        background-color: #3e3e3f; 
+         position: relative;   
+    }
+
+    .ul1{
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align:center;
+  justify-content: center;
+  border-bottom:1px solid #b1b3b9;
+  margin:0;
+  padding:15px 0px;
+  font-size:12px;
+    }
+    .ul1 li+li:before{
+  display: inline-block;
+  padding-right:15px;
+  padding-left:15px;
+  color:#fff;
+  content: "|"; 
+    }
+    .ul1 a{
+      color:#b1b3b9;
+      text-decoration:none;
+      font-size:12px;
+    }
+    .ul1 a:hover{color:red}
+    .d1{text-align: center}
+    p{color:#b1b3b9;
+      font-size:15px;
+      margin:10px 0;
+    }  
+    img{width:30px;
+        padding-right:30px; 
+    }
+    .img1{
+        overflow: hidden;      
+        height:0px;
+        position: absolute;
+        margin-left: 380px;margin-top:-100px;
+        transition-property: height;
+    }
+    .a1:hover .img1{
+        display:block;
+        transition: all 1s linear;
+        height:500px;
+
+    }
+    .img2{
+        overflow: hidden;      
+        height:0px;
+        position: absolute;
+        margin-left: 430px;margin-top:-100px;
+        transition-property: height;
+    }
+    .a2:hover .img2{
+        display:block;
+        transition: all 1s linear;
+        height:500px;
+
+    }
+    .img3{
+        overflow: hidden;      
+        height:0px;
+        position: absolute;
+        margin-left: 480px;margin-top:-100px;
+        transition-property: height;
+    }
+    .a3:hover .img3{
+        display:block;
+        transition: all 1s linear;
+        height:500px;
+
+    }
+    .img4{
+        overflow: hidden;      
+        height:0px;
+        position: absolute;
+        margin-left: 530px;margin-top:-100px;
+        transition-property: height;
+    }
+    .a4:hover .img4{
+        display:block;
+        transition: all 1s linear;
+        height:500px;
+
+    }
+</style>
+<body>
+<div class="parent">
+        <ul class="ul1">
+          <li><a href="">关于腾氏</a></li> 
+          <li><a href="">联系我们</a></li> 
+          <li><a href="">用户留言</a></li> 
+          <li><a href="">产品服务</a></li> 
+          <li><a href="">用户服务协议</a></li> 
+          <li><a href="">用户体验提升计划</a></li> 
+          <li><a href="">设为首页</a></li> 
+          <li><a href="">网站地图</a></li> 
+          <li><a href="">隐私政策</a></li> 
+          <li><a href="">收藏本站</a></li> 
+          <li><a href="">推广合作</a></li> 
+        </ul><br><br>
+     
+      <div class="d1">
+          <a class="a1" href=""><img src="qq.png">
+            <div class="img1">
+               <img style="width:20px" src="qq1.jpg" alt="">
+            </div>
+        </a>      
+          <a class="a2" href=""><img src="wx.png">
+            <div class="img2">
+               <img style="width:20px" src="qq1.jpg" alt="">
+            </div>
+        </a>
+          <a class="a3" href=""><img src="wb.png">
+            <div class="img3">
+               <img style="width:20px" src="qq1.jpg" alt="">
+             </div>
+        </a>
+          <a class="a4" href=""><img src="df.png">
+            <div class="img4">
+               <img style="width:20px" src="qq1.jpg" alt="">
+            </div>
+        </a>
+          <p>我们致力于推动网络正版音乐发展，相关版权合作请联系腾氏&nbsp;&nbsp;208277425@qq.com</p>
+          <p>成都市锦江区明宇广场</p>
+          <p>Email: **********</p>   
+          <p>电话：**********&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;座机：*********</p>     
+          <p>腾氏科技有限公司</p>
+      </div>
+      
+      
+</div>
+</body>
+</html>
